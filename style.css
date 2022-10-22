@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
     outline: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'montserrat';
 }
 
 body {
-    background-color: #efefef;
+    background: url(assets/background.png) no-repeat center center fixed;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
 }
 
-header {
+section {
     width: 90%;
     margin: 1em auto;
 }
@@ -46,6 +49,65 @@ header ul li a:visited {
 }
 
 .yaziBoyutu {
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+main #Left {
+    width: 350px;
+    margin-top: 150px;
+    font-size: 18px;
+    position: absolute;
+}
+
+main #Right {
+    float: right;
+    font-size: 7em;
+    font-weight: 700;
+    margin: 380px 150px 0px 0px;
+    line-height: 75px;
+    color: #212121;
+}
+
+footer {
+    margin-top: 780px;
+}
+
+footer ul {
+    list-style: none;
+    width: 100%;
+}
+
+footer ul li {
+    float: left;
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+
+i {
+    color: #2d2d2d;
+}
+
+footer ul li:last-child{
+    float: right;
+    font-weight: bold;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+
+details[open] summary {
+    display: none;
 }
