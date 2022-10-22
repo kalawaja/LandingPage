@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #efefef;
+}
+
+header {
+    width: 90%;
+    margin: 1em auto;
+}
+
+header ul {
+    list-style: none;
+    height: 60px;
+    overflow: hidden; /* Taşmayı gizledik */
+    /*position: static; 
+    float: right; 
+    Menüyü sağa almak için kullanılabilir. Dikey Modda by F.
+    */ 
+}
+
+header ul li {
+    float: left;
+    width: 175px;
+    line-height: 60px;
+}
+
+header ul li a:link,
+header ul li a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+#Hamburger {
+    float: right;
+    width: auto;
+}
+
+#Kaydir {
+    margin-left: calc(100%/5);
+}
+
+.yaziBoyutu {
+    font-size: 1.6em;
+    text-align: center;
+}
